@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="sidebar">
+    {% for student in students %}
+    <a href="#">{{student}}</a>
+    {% endfor %}
+</div>
+{% endblock %}

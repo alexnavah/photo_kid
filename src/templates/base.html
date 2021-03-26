@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block header %}
+            <link rel="stylesheet" href="../static/style.css">
+            <title>{% block title %}{% endblock %} - Photo viewer</title>
+        {% endblock %}
+    </head>
+    <body>
+        {% block content %} {% endblock %}
+    </body>
+</html>
